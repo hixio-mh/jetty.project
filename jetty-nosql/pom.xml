@@ -13,7 +13,7 @@
   </properties>
   <build>
     <defaultGoal>install</defaultGoal>
-    <plugins></plugins>
+    <plugins/>
   </build>
   <dependencies>
     <dependency>
@@ -30,7 +30,7 @@
     <dependency>
       <groupId>org.mongodb</groupId>
       <artifactId>mongo-java-driver</artifactId>
-      <version>2.13.2</version>
+      <version>2.14.3</version>
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
