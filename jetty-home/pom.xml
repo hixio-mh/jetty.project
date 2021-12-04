@@ -533,7 +533,7 @@
             </goals>
             <configuration>
               <tasks>
-                <chmod dir="${assembly-directory}/bin" perm="755" includes="**/*.sh" />
+                <chmod dir="${assembly-directory}/bin" perm="755" includes="**/*.sh"/>
               </tasks>
             </configuration>
           </execution>
@@ -648,7 +648,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-quickstart</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -669,17 +669,17 @@
     <dependency>
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>websocket-jetty-server</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty.websocket</groupId>
       <artifactId>websocket-javax-server</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>apache-jsp</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -689,7 +689,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-plus</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -723,7 +723,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-cdi</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -733,7 +733,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-annotations</artifactId>
-      <version>${project.version}</version>
+      <version>10.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
